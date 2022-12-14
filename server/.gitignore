@@ -8,9 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist
 dist-ssr
-*.local
+# *.local
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.json
+!package.json
+vite.config.ts
+vite.config.ts.timestamp-1663870329588.mjs
+.prettierrc
+vite-env.d.ts
